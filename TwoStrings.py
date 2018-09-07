@@ -18,12 +18,12 @@ def twoStrings(s1, s2):
     return 'No'
 
 
-q = int(input())
+q = 1
 
 for q_itr in range(q):
-    s1 = input()
+    s1 = 'hi'
 
-    s2 = input()
+    s2 = 'hello'
 
     result = twoStrings(s1, s2)
     print(result)
